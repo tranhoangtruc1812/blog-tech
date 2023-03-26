@@ -1,0 +1,26 @@
+{
+  "name": "mygutenberg",
+  "version": "1.0.0",
+  "description": "=== Akismet Spam Protection ===\r Contributors: matt, ryan, andy, mdawaffe, tellyworth, josephscott, lessbloat, eoigal, cfinke, automattic, jgs, procifer, stephdau, kbrownkd\r Tags: comments, spam, antispam, anti-spam, contact form, anti spam, comment moderation, comment spam, contact form spam, spam comments\r Requires at least: 5.0\r Tested up to: 6.0.1\r Stable tag: 5.0\r License: GPLv2 or later",
+  "main": "webpack.config.js",
+  "scripts": {
+    "webpack": "webpack --config webpack.config.js",
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.19.1",
+    "@babel/preset-env": "^7.19.1",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "jquery": "^3.6.1",
+    "mini-css-extract-plugin": "^2.6.1"
+  }
+}
